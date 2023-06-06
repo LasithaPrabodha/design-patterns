@@ -1,6 +1,7 @@
 ## Design Patterns
 Design patterns in software engineering are reusable solutions to commonly occurring problems in software design. They provide proven approaches and best practices for structuring, organizing, and solving specific design problems. Design patterns help improve the quality, flexibility, and maintainability of software systems.
 
+The 23 Gang of Four (GoF) patterns are generally considered the foundation for all other patterns. They are categorized in three groups: Creational, Structural, and Behavioral (for a complete list see below). This reference provides source code for each of the 23 GoF patterns.
 
 1. Creational Patterns:
     - [Singleton](singleton.md): Ensures that a class has only one instance and provides a global point of access to it.

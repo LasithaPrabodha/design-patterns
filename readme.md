@@ -34,14 +34,16 @@ The 23 Gang of Four (GoF) patterns are generally considered the foundation for a
     - [Interpreter](interpreter.md): Defines a representation of a grammar and provides a way to evaluate and interpret sentences in that grammar
     - [Memento](memento.md): Allows capturing and restoring the internal state of an object without violating encapsulation
 
-4. Architectural Patterns:
+Other design patterns we might need to consider checking out,
+
+1. Architectural Patterns:
    - Model-View-Controller (MVC): Separates the application into three interconnected components (Model, View, Controller) to achieve separation of concerns.
    - Model-View-ViewModel (MVVM): Similar to MVC, but introduces a ViewModel that exposes data and actions to the View.
    - Layered Architecture: Separates the application into multiple layers (e.g., presentation, business logic, data access) to enforce modularity and maintainability.
 
-5. Concurrency Patterns:
+2. Concurrency Patterns:
    - Producer-Consumer: Provides a way to decouple the production and consumption of data, allowing multiple threads to work together efficiently.
    - Mutex: Provides exclusive access to a shared resource by allowing only one thread to acquire a lock at a time.
    - Read-Write Lock: Allows concurrent read access to a resource but exclusive write access.
 
-These are just a few examples, and there are many more design patterns available. Each pattern has a specific intent and addresses different aspects of software design. It's important to choose and apply patterns appropriately based on the problem at hand and the specific requirements of the software system.
+Each pattern has a specific intent and addresses different aspects of software design. It's important to choose and apply patterns appropriately based on the problem at hand and the specific requirements of the software system.

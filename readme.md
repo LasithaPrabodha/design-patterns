@@ -27,10 +27,9 @@ The 23 Gang of Four (GoF) patterns are generally considered the foundation for a
     - [Iterator](iterator.md): Provides a way to access the elements of an aggregate object sequentially without exposing its underlying representation.
     - [Template Method](template-method.md): Defines the skeleton of an algorithm in a base class, allowing subclasses to override specific steps of the algorithm.
     - [State](state.md): Allows an object to alter its behavior when its internal state changes.
-    - Chain of Responsibility: Enables an object to pass a request along a chain of potential handlers until one handles it.
+    - [Chain of Responsibility](chain-of-responsibility.md): Enables an object to pass a request along a chain of potential handlers until one handles it.
     - [Mediator](mediator.md): Defines an object that encapsulates how a set of objects interact, promoting loose coupling between them.
     - [Visitor](visitor.md): Separates an algorithm from the objects it operates on by placing the algorithm in a separate visitor object.
-    - [Chain of Resp.](chain-of-responsibility.md): Allows an object to pass a request along a chain of potential handlers until one of them handles it.
     - [Interpreter](interpreter.md): Defines a representation of a grammar and provides a way to evaluate and interpret sentences in that grammar
     - [Memento](memento.md): Allows capturing and restoring the internal state of an object without violating encapsulation
 
